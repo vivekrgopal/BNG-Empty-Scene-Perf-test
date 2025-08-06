@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d095236d72305f645a71d717903e9d8f, type: 3}
+  m_Name: _IK_Pickleball
+  m_EditorClassIdentifier: 
+  PoseName: Default
+  Joints:
+    WristJoint:
+      TransformName: MaleFirstPersonArms_by_AlexLashko_lvl01
+      LocalPosition: {x: 0, y: 0, z: 0}
+      LocalRotation: {x: 0.5564005, y: -0.018750938, z: 0.76965183, w: 0.3125748}
+    ThumbJoints:
+    - TransformName: rightthumb1_male
+      LocalPosition: {x: -0.029816704, y: 0.026514415, z: -0.011031646}
+      LocalRotation: {x: 0.35723054, y: 0.8094454, z: -0.3268087, w: 0.33223578}
+    - TransformName: rightthumb2_male
+      LocalPosition: {x: 0.04488981, y: 0.0000009918213, z: -0.0000007629394}
+      LocalRotation: {x: 0.16356757, y: 0.0073676705, z: -0.42409906, w: 0.8906915}
+    - TransformName: rightthumb3_male
+      LocalPosition: {x: 0.029866751, y: 0.0000016784668, z: -0.0000009155273}
+      LocalRotation: {x: -0.000000059604623, y: 0.00000008195636, z: -0.12887703,
+        w: 0.99166065}
+    - TransformName: rightthumb4_male
+      LocalPosition: {x: 0.023182983, y: -0.0000046157834, z: 0.0000029754638}
+      LocalRotation: {x: -2.220446e-16, y: 0, z: 0, w: 1}
+    IndexJoints:
+    - TransformName: rightindex1_male
+      LocalPosition: {x: -0.108953685, y: 0.026060976, z: -0.000652913}
+      LocalRotation: {x: -0.49953216, y: 0.49731976, z: 0.47907412, w: 0.52309537}
+    - TransformName: rightindex2_male
+      LocalPosition: {x: 0.035273742, y: -0.000004272461, z: -0.0000033569336}
+      LocalRotation: {x: 0.000000029802312, y: -0.000000029802312, z: -0.32119375,
+        w: 0.9470135}
+    - TransformName: rightindex3_male
+      LocalPosition: {x: 0.0234729, y: 0.0000009918213, z: 0.0000012397766}
+      LocalRotation: {x: -0.00000024766075, y: -0.00000023454534, z: -0.59073806,
+        w: 0.80686337}
+    - TransformName: rightindex4_male
+      LocalPosition: {x: 0.02318817, y: 0.00000015258789, z: 0.0000003814697}
+      LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+    MiddleJoints:
+    - TransformName: rightmiddle1_male
+      LocalPosition: {x: -0.10655752, y: 0.0012422282, z: -0.0030576484}
+      LocalRotation: {x: -0.48608914, y: 0.43897632, z: 0.55117226, w: 0.51693934}
+    - TransformName: rightmiddle2_male
+      LocalPosition: {x: 0.03838993, y: -0.00000030517577, z: -0.000000076293944}
+      LocalRotation: {x: -0.00000017881388, y: 0.000000029802312, z: -0.56897277,
+        w: 0.8223564}
+    - TransformName: rightmiddle3_male
+      LocalPosition: {x: 0.031078033, y: -0.00000022888183, z: 0.00000019073485}
+      LocalRotation: {x: -0.00000018861452, y: -0.000000056049316, z: -0.48787516,
+        w: 0.8729135}
+    - TransformName: rightmiddle4_male
+      LocalPosition: {x: 0.02318817, y: -0.000000038146972, z: 0.00000019073485}
+      LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+    RingJoints:
+    - TransformName: rightring1_male
+      LocalPosition: {x: -0.09933746, y: -0.01834385, z: -0.011200179}
+      LocalRotation: {x: -0.5267784, y: 0.3863854, z: 0.57809734, w: 0.48889095}
+    - TransformName: rightring2_male
+      LocalPosition: {x: 0.03523632, y: 0.0000007629394, z: 0.0000009918213}
+      LocalRotation: {x: -0.00000020861619, y: -0.000000029802312, z: -0.52984613,
+        w: 0.84809387}
+    - TransformName: rightring3_male
+      LocalPosition: {x: 0.025894698, y: -0.0000003814697, z: -0.000000076293944}
+      LocalRotation: {x: -0.000000022066477, y: -0.00000016858783, z: -0.5357703,
+        w: 0.84436375}
+    - TransformName: rightring4_male
+      LocalPosition: {x: 0.024180984, y: -0.000000076293944, z: -0.00000022888183}
+      LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+    PinkyJoints:
+    - TransformName: rightpinky1_male
+      LocalPosition: {x: -0.08815593, y: -0.03740543, z: -0.02030754}
+      LocalRotation: {x: -0.51946133, y: 0.31047085, z: 0.60525316, w: 0.5171425}
+    - TransformName: rightpinky2_male
+      LocalPosition: {x: 0.02692459, y: -0.0000007629394, z: -0.0000004196167}
+      LocalRotation: {x: -0.00000011920926, y: 0.000000044703473, z: -0.27702793,
+        w: 0.9608619}
+    - TransformName: rightpinky3_male
+      LocalPosition: {x: 0.019755095, y: 0.0000005340576, z: 0.00000019073485}
+      LocalRotation: {x: -0.000000012968128, y: -0.00000018175604, z: -0.7057876,
+        w: 0.70842355}
+    - TransformName: rightpinky4_male
+      LocalPosition: {x: 0.023187866, y: -0.000000114440915, z: 0.000000076293944}
+      LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+    OtherJoints: []
